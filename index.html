@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TPM Portal</title>
+<style>
+:root{--paper:#EDF0F3;--card:#F8FAFB;--ink:#112032;--soft:#5A6B7C;--rule:#C7D0D8;--accent:#58EA9D}
+@media (prefers-color-scheme:dark){:root{--paper:#0C1620;--card:#14222F;--ink:#E4ECF2;--soft:#8FA2B3;--rule:#24384B}}
+*{box-sizing:border-box} body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.55 Archivo,system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:960px;margin:0 auto;padding:40px 16px 64px} h1{font-size:clamp(28px,4vw,38px);margin:0 0 6px;letter-spacing:-.5px}
+p{color:var(--soft);margin:0 0 26px} .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:14px}
+.card{display:flex;flex-direction:column;gap:6px;padding:18px 20px;border:1px solid var(--rule);border-radius:12px;background:var(--card);color:inherit;text-decoration:none}
+.card:hover,.card:focus-visible{border-color:var(--accent);outline:none} .card b{font-size:17px} .card span{color:var(--soft)} .card em{font-style:normal;font-size:12.5px;color:var(--soft)}
+footer{margin-top:40px;font-size:12.5px;color:var(--soft)}
+</style></head>
+<body><main><h1>TPM Portal</h1><p>Tools for project managers. Everything runs in your browser: nothing you type is sent anywhere.</p>
+<div class="grid">
+<a class="card" href="project-planner/index.html"><b>Project planner</b><span>One standard plan for every project: roles, phases, RACI and dates, with checks, then an Excel with the RACI and/or the Gantt.</span><em>Project managers · v1.0.0</em></a>
+</div><footer>Built from the TPM Desk.</footer></main></body></html>
